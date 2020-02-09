@@ -1,0 +1,42 @@
+@import 'reset';
+@import 'notes';
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #bdbdbd;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px auto;
+}
+
+p {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    padding: 25px;
+    background: #cdcdcd;
+    margin: 20px 5px;
+
+    img {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+h3 {
+    margin: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
