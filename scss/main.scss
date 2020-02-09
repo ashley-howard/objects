@@ -1,5 +1,6 @@
 @import 'reset';
 @import 'notes';
+@import 'calendar';
 
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -10,6 +11,17 @@ body {
 h2 {
     font-size: 2em;
     margin: 20px auto;
+}
+
+h3 {
+    margin: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 p {
@@ -33,10 +45,4 @@ p {
         width: 280px;
         height: 280px;
     }
-}
-
-h3 {
-    margin: 20px;
-    margin-bottom: 0;
-    font-weight: 500;
 }
